@@ -26,6 +26,32 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
+	
+	<repositories>
+		<repository>
+  			<id>test</id>
+  			<url>https://pkgs.dev.azure.com/HareeshBetha1/Test-Boards/_packaging/test/maven/v1</url>
+  			<releases>
+    			<enabled>true</enabled>
+  			</releases>
+  			<snapshots>
+    			<enabled>true</enabled>
+  			</snapshots>
+		</repository>
+	</repositories>
+
+	<distributionManagement>
+		<repository>
+  			<id>test</id>
+  			<url>https://pkgs.dev.azure.com/HareeshBetha1/Test-Boards/_packaging/test/maven/v1</url>
+  			<releases>
+    			<enabled>true</enabled>
+  			</releases>
+  			<snapshots>
+    			<enabled>true</enabled>
+  			</snapshots>
+		</repository>
+	</distributionManagement>
 
 	<dependencies>
 
