@@ -31,3 +31,6 @@ Thumbs.db
 **/*.idea
 
 README.html
+.gitsecret/keys/random_seed
+1.py
+hello.txt
