@@ -30,7 +30,10 @@ Thumbs.db
 **/*.iws
 **/*.idea
 
+# Additional Files
 README.html
 .gitsecret/keys/random_seed
 1.py
+2.py
 hello.txt
+Dockerfile
